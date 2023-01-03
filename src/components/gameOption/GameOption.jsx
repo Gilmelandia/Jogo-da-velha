@@ -10,16 +10,16 @@ function GameOption ({ status, onClick, isWinner }) {
     <div 
      className={
        classNames(styles.gameOption, {
-         [styles.winner]: isWinner
+          [styles.winner]: isWinner,
         })
      }
        onClick={onClick}
     >
       {
-        status === 1 && <GameIcon iconName='circle' size='25px'/>
+        status === 1 && <GameIcon iconName='circle' />
       }
       {
-        status === -1 && <GameIcon iconName='X' size='25px'/>
+        status === -1 && <GameIcon iconName='X' />
       }
     </div>
   )
