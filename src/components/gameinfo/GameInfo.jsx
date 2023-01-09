@@ -29,7 +29,7 @@ function GameInfo ({ currentPlayer, winner, onReset, isDraw }) {
            winner === 1 && <Icon iconName='circle' />
           }
           {
-           winner === -1 && <Icon iconName='X' />
+           winner === -1 && <Icon iconName='x' />
           }
         </>
       }
